@@ -1,0 +1,8 @@
+
+local part = Instance.new("SpawnLocation")
+while true do
+wait(.1)
+
+part.Position = game.Workspace.Part.Position -- Spawn Location
+part.Parent = workspace
+end
